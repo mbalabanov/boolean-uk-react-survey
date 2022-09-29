@@ -52,6 +52,11 @@ function Main() {
   function handleSubmit(event) {
     event.preventDefault();
     setListState([duckData, ...listState]);
+    setDuckData(initialDuckData);
+  }
+
+  function editReview(event) {
+    console.log("event");
   }
 
   return (

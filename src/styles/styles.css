@@ -196,3 +196,10 @@ h2 {
 .form__submit:hover {
   background-color: white;
 }
+
+.editAnswersButton {
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  background-color: aquamarine;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  border-radius: 0.4rem;
+}
